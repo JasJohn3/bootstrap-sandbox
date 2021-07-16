@@ -88,59 +88,77 @@
         <!--##################START HERE####################-->
 
         <!-- WIDTH CLASSES -->
-        <div class="bg-success p-3">Width 25%</div>
-        <div class="bg-success p-3">Width 50%</div>
-        <div class="bg-success p-3">Width 75%</div>
-        <div class="bg-success p-3">Width 100%</div>
-        <div class="bg-success p-3">Width Auto</div>
+        <h2 class="h2">WIDTH CLASSES</h2>
+        <hr>
+        <strong class="d-block mb-3">class="w-(25,50,75,100,auto)"</strong>
+        <div class="bg-success p-3 w-25">Width 25%</div>
+        <div class="bg-success p-3 w-50">Width 50%</div>
+        <div class="bg-success p-3 w-75">Width 75%</div>
+        <div class="bg-success p-3 w-100">Width 100%</div>
+        <div class="bg-success p-3 w-auto">Width Auto</div>
 
         <br>
         <br>
 
         <!-- HEIGHT CLASSES -->
-        <div>
-            <div class="bg-primary d-inline-block">Height 25%</div>
-            <div class="bg-primary d-inline-block">Height 50%</div>
-            <div class="bg-primary d-inline-block">Height 75%</div>
-            <div class="bg-primary d-inline-block">Height 100%</div>
-            <div class="bg-primary d-inline-block">Height Auto</div>
+        <h2 class="h2">HEIGHT CLASSES</h2>
+        <hr>
+        <strong class="d-block mb-3">class="h-(25,50,75,100,auto)"</strong>
+        <div style ="height: 300px; border: 1px solid #333;">
+            <div class="bg-primary d-inline-block h-25">Height 25%</div>
+            <div class="bg-primary d-inline-block h-50">Height 50%</div>
+            <div class="bg-primary d-inline-block h-75">Height 75%</div>
+            <div class="bg-primary d-inline-block h-100">Height 100%</div>
+            <div class="bg-primary d-inline-block h-auto">Height Auto</div>
         </div>
 
         <br>
         <br>
 
         <!-- BORDERS -->
+        <h2 class="h2">BORDERS</h2>
+        <hr>
+        <strong class="d-block mb-3">class="border"</strong>
         <div class="p-3 mb-2 bg-light">Regular</div>
-        <div class="p-3 mb-2 bg-light">Border Top</div>
-        <div class="p-3 mb-2 bg-light">Border Bottom</div>
-        <div class="p-3 mb-2 bg-light">Border Right</div>
-        <div class="p-3 mb-2 bg-light">Border Left</div>
+
+        <strong class="d-block mb-3">class="border-(top,bottom,right,left)"</strong>
+        <div class="p-3 mb-2 bg-light border-top border-primary">Border Top</div>
+        <div class="p-3 mb-2 bg-light border-bottom border-primary">Border Bottom</div>
+        <div class="p-3 mb-2 bg-light border-right border-primary">Border Right</div>
+        <div class="p-3 mb-2 bg-light border-left border-primary">Border Left</div>
 
         <br>
         <br>
 
         <!-- BORDER COLORS -->
-        <div class="p-3 mb-2 bg-light">Primary</div>
-        <div class="p-3 mb-2 bg-light">Secondary</div>
-        <div class="p-3 mb-2 bg-light">Success</div>
-        <div class="p-3 mb-2 bg-light">Info</div>
-        <div class="p-3 mb-2 bg-light">Warning</div>
-        <div class="p-3 mb-2 bg-light">Danger</div>
-        <div class="p-3 mb-2 bg-light">Light</div>
-        <div class="p-3 mb-2 bg-light">Dark</div>
-        <div class="p-3 mb-2 bg-light">White</div>
+        <h2 class="h2">BORDER COLORS</h2>
+        <hr>
+        <strong class="d-block mb-3 border">class="border border-(color)"</strong>
+        <div class="p-3 mb-2 bg-light border border-primary">Primary</div>
+        <div class="p-3 mb-2 bg-light border border-secondary">Secondary</div>
+        <div class="p-3 mb-2 bg-light border border-success">Success</div>
+        <div class="p-3 mb-2 bg-light border border-info">Info</div>
+        <div class="p-3 mb-2 bg-light border border-warning">Warning</div>
+        <div class="p-3 mb-2 bg-light border border-danger">Danger</div>
+        <div class="p-3 mb-2 text-white bg-dark border border-light">Light</div>
+        <div class="p-3 mb-2 bg-light border border-dark">Dark</div>
+        <div class="p-3 mb-2 text-white bg-dark border border-white">White</div>
 
         <br>
         <br>
 
         <!-- BORDER RADIUS -->
+        <h2 class="h2">BORDER RADIUS</h2>
+        <hr>
+        <strong class="d-block mb-3 border">class="border border-primary rounded"</strong>
         <div class="p-3 mb-2 bg-light">Rounded</div>
-        <div class="p-3 mb-2 bg-light">Rounded Top</div>
-        <div class="p-3 mb-2 bg-light">Rounded Bottom</div>
-        <div class="p-3 mb-2 bg-light">Rounded Right</div>
-        <div class="p-3 mb-2 bg-light">Rounded Left</div>
-        <div class="p-3 mb-2 bg-light">Rounded Circle</div>
-        <div class="p-3 mb-2 bg-light">Dark</div>
+        <strong class="d-block mb-3 border">class="border rounded-(top,bottom,right,left,circle)"</strong>
+        <div class="p-3 mb-2 bg-light border border-primary rounded-top">Rounded Top</div>
+        <div class="p-3 mb-2 bg-light border border-primary rounded-bottom">Rounded Bottom</div>
+        <div class="p-3 mb-2 bg-light border border-primary rounded-right">Rounded Right</div>
+        <div class="p-3 mb-2 bg-light border border-primary rounded-left">Rounded Left</div>
+        <strong class="d-block mb-3 border">class="w-25 border rounded-(top,bottom,right,left,circle)"</strong>
+        <div class="p-3 mb-2 bg-light border border-primary w-25 rounded-circle">Rounded Circle</div>
 
     </div>
     <!-- ./container -->
